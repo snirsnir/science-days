@@ -66,18 +66,19 @@
             width: 100%;
         }
         
-        .logo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 40px;
-        }
-        
-        .logo {
-            height: 100px;
-            filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
-            background-color: transparent;
-        }
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 30px; /* מרווח בין הלוגואים */
+}
+
+.logo {
+    height: 80px; /* גודל מעט קטן יותר אם צריך */
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.3));
+    background-color: transparent;
+}
         
         .title-container {
             margin-bottom: 40px;
@@ -704,9 +705,10 @@
     <!-- חלק עליון (Hero) -->
     <section class="hero">
         <div class="hero-content">
-            <div class="logo-container">
-                <img src="https://media.getmood.io/warehouse/dynamic/217495.png" alt="לוגו טכנודע" class="logo" style="background-color: transparent;">
-            </div>
+<div class="logo-container">
+    <img src="https://media.getmood.io/warehouse/dynamic/217495.png" alt="לוגו טכנודע" class="logo" style="background-color: transparent;">
+    <img src="matanel.png" alt="לוגו מתנאל" class="logo" style="background-color: transparent; margin-right: 20px;">
+</div>
             
             <div class="title-container">
                 <h1 class="main-title">ימי מדע בטכנודע</h1>
